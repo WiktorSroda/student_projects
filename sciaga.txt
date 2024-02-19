@@ -1,0 +1,13 @@
+zaczynamy od /
+folder domowy = /home/uczen = ~
+cd~ = przenoszenie do folderu
+ls = wyswietla
+mcedit plik.txt = edycja pliku
+touch plik.txt = tworzenie pliku
+nano plik.txt = edycja
+mkdir nazwafolderu = tworzenie folderu
+rm plik.txt = usuwanie pliku
+rm -r nazwafolderu = usuwanie folderu z zawartoscia
+./program = odpalanie programu
+./skrypt.sh = odpalanie skryptu
+chmod +x skrypt.sh = nadanie uprawnien
