@@ -16,7 +16,6 @@ int main() {
                 break;
             }
         }
-        
         if(p == true)
             std::cout << i << std::endl;
     }
