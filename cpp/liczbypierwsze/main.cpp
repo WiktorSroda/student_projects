@@ -1,21 +1,25 @@
 #include <iostream>
-#include <cstdio>
-using namespace std;
 
-int main(){
-	int n;
-	bool p;
-	printf("Podaj koniec tego przedziału: ");
-	scanf("%d", &n);
+int main() {
+    int n;
+    bool p;
 
-	for(int i=1; i < n+1; i++){
-		p = true;
+    std::cout << "Podaj koniec tego przedziału: ";
+    std::cin >> n;
 
-		for(int j=2; j<i; j++)
-			if(i%j==0)
-				p=false;
-	if(p==true)
-		printf("%d\n",i);
-		}
-	}
+    for(int i = 2; i <= n; i++){
+        p = true;
 
+        for(int j = 2; j * j <= i; j++){
+            if(i % j == 0){
+                p = false;
+                break;
+            }
+        }
+        
+        if(p == true)
+            std::cout << i << std::endl;
+    }
+
+    return 0;
+}
