@@ -1,0 +1,14 @@
+main.cpp: In function ‘int main()’:
+main.cpp:20:33: error: expected ‘;’ before ‘cout’
+   20 |         cout<<"\nGra w statki\n"
+      |                                 ^
+      |                                 ;
+   21 | 
+   22 |         cout<<"plansza:\n"
+      |         ~~~~                     
+main.cpp:23:22: error: ‘i’ was not declared in this scope
+   23 |         for(int i=0; i<3; i++){
+      |                      ^
+main.cpp:38:10: error: ‘elseif’ was not declared in this scope
+   38 |         }elseif(pole[strzalx][strzaly]=='-'){
+      |          ^~~~~~
